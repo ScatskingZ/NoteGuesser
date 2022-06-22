@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NoteGuesser</title>
+<link rel="stylesheet" type="text/css" href="Styles.css">
+</style>
+</head>
+<body id="body">
+
+<select id="notename">
+    <option value="IT">Do Re Mi Fa</option>
+    <option value="EN">C D E F</option>
+</select>
+
+<select id="clef">
+    <option value="TREBLE">Treble Clef (Chiave di Violino)</option>
+    <option value="BASS">Bass Clef (Chiave di Basso)</option>
+    <option value="ALTO">Alto Clef (Chiave di Contralto)</option>
+</select>
+
+<img id="clefimg">
+<img id="note" src="img/NOTE.png">
+<img id="alt" src="img/ALT0.png">
+<button id="restart" onclick="newNote();">Invia / Send</button>
+
+<p id="streak">Streak: 0</p>
+
+<select id="noteselect">
+    <option id="C" value="C">Do</option>
+    <option id="D" value="D">Re</option>
+    <option id="E" value="E">Mi</option>
+    <option id="F" value="F">Fa</option>
+    <option id="G" value="G">Sol</option>
+    <option id="A" value="A">La</option>
+    <option id="B" value="B">Si</option>
+</select>
+<select id="altselect">
+    <option value="">♮</option>
+    <option value="♯">♯</option>
+    <option value="♭">♭</option>
+</select>
+
+<script src="Main.js">
+</script>
+</body>
+</html>
